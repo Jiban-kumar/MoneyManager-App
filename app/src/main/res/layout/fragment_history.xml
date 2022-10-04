@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HistoryFragment"
+    android:padding="5dp">
+
+    <Spinner
+        android:id="@+id/mySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dailyRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mySpinner"
+        tools:listitem="@layout/parent_item_layout" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/monthRecyclerView"
+        android:layout_below="@+id/monthTotal"
+        tools:listitem="@layout/graph_item_view"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mlin"
+        android:id="@+id/monthTotal"
+        android:textSize="22sp"
+        android:visibility="gone"
+        android:layout_marginEnd="35dp"
+        android:layout_alignParentEnd="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mlin"
+        android:id="@+id/ctText"
+        android:text="Total"
+        android:textSize="22sp"
+        android:visibility="gone"
+        android:layout_marginStart="35dp"
+        android:layout_alignParentStart="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/mySpinner"
+        android:visibility="gone"
+        android:id="@+id/mlin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/previous1"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_back"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/month1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="March 2022"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:id="@+id/next1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:src="@drawable/ic_next"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/datatext"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:text="Data not Available"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview"
+        android:layout_below="@+id/monthTotal"
+        android:visibility="gone"/>
+</RelativeLayout>

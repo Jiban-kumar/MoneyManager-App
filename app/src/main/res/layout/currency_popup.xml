@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/sc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Currency"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_below="@id/sc"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sc"
+        android:orientation="vertical"
+        android:id="@+id/lin"
+        android:paddingStart="20dp"
+        android:scrollbars="vertical">
+
+        <RadioGroup
+            android:id="@+id/rgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rupee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Rupee" />
+
+            <RadioButton
+                android:id="@+id/dollar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dollar" />
+
+            <RadioButton
+                android:id="@+id/euro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Euro" />
+
+            <RadioButton
+                android:id="@+id/pound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pound" />
+
+            <RadioButton
+                android:id="@+id/yen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yen" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/popCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_below="@id/lin"
+        android:text="Cancel" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/popSave"
+        android:text="Save"
+        android:layout_marginEnd="50dp"
+        android:layout_below="@id/lin"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

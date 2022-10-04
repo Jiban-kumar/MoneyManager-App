@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/edittextbackground.xml" value="0.152" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/ic_calendar.xml" value="0.152" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/ic_calender.xml" value="0.1705" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/ic_shopping.xml" value="0.1725" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/lin_background.xml" value="0.152" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/drawable/togglebackround.xml" value="0.152" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.192578125" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout-w936dp/activity_login.xml" value="0.187890625" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/activity_add_transaction.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/activity_calender.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/activity_main.xml" value="0.2391102873030584" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/activity_register.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/activity_setting.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/addtransaction_layout.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/category_item_view.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/currency_popup.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/fragment_chart.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/fragment_history.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/fragment_home.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/graph_item_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/home_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/item_view.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/listview_item_view.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/mykeyboard_layout.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/navheader.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/layout/parent_item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/menu/bottomnavmenu.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/menu/mainmenu.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MoneyManager/app/src/main/res/menu/navmenu.xml" value="0.25052083333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
